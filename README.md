@@ -49,9 +49,9 @@ To support multiple types of clients without duplicating game logic, a strong **
 
 ## 📸 Screenshots
 
-| Web Interface (Profile & Score Board) | Game Board (Web) |
+| Profile | Score Board | Game Board |
 |:---:|:---:|:---:|
-| <img src="docs/imagens/4.png" width="250"/> <img src="docs/imagens/5.png" width="250"/> | <img src="docs/imagens/6.png" width="250"/> |
+| <img src="docs/imagens/4.png" width="200"/> | <img src="docs/imagens/5.png" width="200"/> | <img src="docs/imagens/6.png" width="200"/> |
 
 ## 👥 Autores
 
