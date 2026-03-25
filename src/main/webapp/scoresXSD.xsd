@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+    <xs:element name="estatisticas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="jogador" type="jogadorType" maxOccurs="unbounded"/>
+            </xs:sequence>    
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:complexType name="jogadorType">
+        <xs:sequence>
+            <xs:element name="totalJogos" type="xs:string"/>
+            <xs:element name="vitorias" type="xs:string"/>
+            <xs:element name="derrotas" type="xs:string"/>
+            <xs:element name="empates" type="xs:string"/>
+            <xs:element name="jogos">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="jogo" type="jogoType" maxOccurs="unbounded"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>   
+        <xs:attribute name="nickname" type="xs:string" use="required"/>
+    </xs:complexType>
+    
+    <xs:complexType name="jogoType">
+        <xs:sequence>
+            <xs:element name="tempoPessoal" type="xs:string"/>
+            <xs:element name="tempoAdversario" type="xs:string"/>
+            <xs:element name="resultado" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:string" use="required"/>
+    </xs:complexType>
+    
+    <!-- Custom type for time format (HH:MM:SS) -->
+    <xs:simpleType name="timeString">
+        <xs:restriction base="xs:string">
+            <xs:pattern value='[0-9]{2}:[0-9]{2}:[0-9]{2}'/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Custom type for resultado -->
+    <xs:simpleType name="resultadoType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value='(vitoria|derrota|empate)'/>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

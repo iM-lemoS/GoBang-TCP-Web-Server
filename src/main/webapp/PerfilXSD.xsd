@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+
+    <xs:element name="jogadores">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="jogador" type="jogadorType" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="jogadorType">
+        <xs:sequence>
+            <xs:element name="nacionalidade" type="xs:string"/>
+            <xs:element name="idade" type="xs:positiveInteger"/>
+            <xs:element name="password" type="xs:string"/>
+            <xs:element name="foto" type="xs:string"/>
+            <xs:element name="sexo" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="nickname" type="xs:string" use="required"/>
+    </xs:complexType>
+
+</xs:schema>

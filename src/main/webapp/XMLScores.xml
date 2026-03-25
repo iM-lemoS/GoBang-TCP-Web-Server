@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="JogoXSLT.xsl"?><estatisticas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="scoresXSD.xsd">
+                                                
+    
+    
+
+    
+    
+    
+    
+    
+    <jogador nickname="teste">
+                                                
+        
+        
+        
+        
+        <totalJogos>3</totalJogos>
+                                                
+        
+        
+        
+        
+        <vitorias>3</vitorias>
+                                                
+        
+        
+        
+        
+        <derrotas>0</derrotas>
+                                                
+        
+        
+        
+        
+        <empates>0</empates>
+                                                
+        
+        
+        
+        
+        <jogos>
+                                                                        
+            
+            
+            
+            
+            <jogo id="Hora: 12:04:21 | Data: 27/04/2025 | Player1: teste | Player2: teste2">
+                                                                                                
+                
+                
+                
+                
+                <tempoPessoal>00:22</tempoPessoal>
+                                                                                                
+                
+                
+                
+                
+                <tempoAdversario>00:10</tempoAdversario>
+                                                                                                
+                
+                
+                
+                
+                <resultado>vitoria</resultado>
+                                                                                            
+            
+            
+            
+            
+            </jogo>
+                                                                        
+            
+            
+            
+            
+            <jogo id="Hora: 12:05:42 | Data: 27/04/2025 | Player1: teste | Player2: teste3">
+                                                                                                
+                
+                
+                
+                
+                <tempoPessoal>00:18</tempoPessoal>
+                                                                                                
+                
+                
+                
+                
+                <tempoAdversario>00:09</tempoAdversario>
+                                                                                                
+                
+                
+                
+                
+                <resultado>vitoria</resultado>
+                                                                                            
+            
+            
+            
+            
+            </jogo>
+                                                                    
+        
+        
+        
+        
+        </jogos>
+                                            
+    
+    
+    
+    
+    </jogador>
+                        
+    
+    
+    
+    
+    <jogador nickname="teste2">
+                                                
+        
+        
+        
+        
+        <totalJogos>4</totalJogos>
+                                                
+        
+        
+        
+        
+        <vitorias>2</vitorias>
+                                                
+        
+        
+        
+        
+        <derrotas>2</derrotas>
+                                                
+        
+        
+        
+        
+        <empates>0</empates>
+                                                
+        
+        
+        
+        
+        <jogos>
+                                                                        
+            
+            
+            
+            
+            <jogo id="Hora: 12:04:21 | Data: 27/04/2025 | Player1: teste | Player2: teste2">
+                                                                                                
+                
+                
+                
+                
+                <tempoPessoal>00:10</tempoPessoal>
+                                                                                                
+                
+                
+                
+                
+                <tempoAdversario>00:22</tempoAdversario>
+                                                                                                
+                
+                
+                
+                
+                <resultado>derrota</resultado>
+                                                                                            
+            
+            
+            
+            
+            </jogo>
+                                                                    
+            
+            
+            
+            
+            <jogo id="Hora: 13:44:30 | Data: 27/04/2025 | Player1: teste2 | Player2: teste3">
+                                                                                
+                
+                
+                
+                <tempoPessoal>00:07</tempoPessoal>
+                                                                                
+                
+                
+                
+                <tempoAdversario>00:12</tempoAdversario>
+                                                                                
+                
+                
+                
+                <resultado>derrota</resultado>
+                                                                            
+            
+            
+            
+            </jogo>
+                                                        
+            
+            
+            
+            <jogo id="Hora: 16:03:11 | Data: 27/04/2025 | Player1: teste | Player2: teste2">
+                                                                
+                
+                
+                <tempoPessoal>00:00</tempoPessoal>
+                                                                
+                
+                
+                <tempoAdversario>00:00</tempoAdversario>
+                                                                
+                
+                
+                <resultado>vitoria</resultado>
+                                                            
+            
+            
+            </jogo>
+                                            
+        
+        
+        </jogos>
+                                            
+    
+    
+    
+    
+    </jogador>
+                    
+
+
+    
+    
+    <jogador nickname="teste3">
+                        
+        
+        <totalJogos>1</totalJogos>
+                        
+        
+        <vitorias>1</vitorias>
+                        
+        
+        <derrotas>0</derrotas>
+                        
+        
+        <empates>0</empates>
+                        
+        
+        <jogos>
+                                    
+            
+            <jogo id="Hora: 23:52:26 | Data: 27/04/2025 | Player1: teste6 | Player2: teste3">
+                                                
+                
+                <tempoPessoal>00:42</tempoPessoal>
+                                                
+                
+                <tempoAdversario>00:06</tempoAdversario>
+                                                
+                
+                <resultado>vitoria</resultado>
+                                            
+            
+            </jogo>
+                                
+        
+        </jogos>
+                    
+    
+    </jogador>
+        
+    
+    <jogador nickname="Lemos">
+                
+        <totalJogos>4</totalJogos>
+                
+        <vitorias>3</vitorias>
+                
+        <derrotas>1</derrotas>
+                
+        <empates>0</empates>
+                
+        <jogos>
+                        
+            <jogo id="Hora: 14:54:51 | Data: 30/04/2025 | Player1: Lemos | Player2: teste5">
+                                
+                <tempoPessoal>01:09</tempoPessoal>
+                                
+                <tempoAdversario>01:10</tempoAdversario>
+                                
+                <resultado>vitoria</resultado>
+                            
+            </jogo>
+                    
+            <jogo id="Hora: 14:59:43 | Data: 30/04/2025 | Player1: teste5 | Player2: Lemos">
+                <tempoPessoal>01:24</tempoPessoal>
+                <tempoAdversario>01:52</tempoAdversario>
+                <resultado>derrota</resultado>
+            </jogo>
+            <jogo id="Hora: 15:04:57 | Data: 30/04/2025 | Player1: Lemos | Player2: teste5">
+                <tempoPessoal>01:10</tempoPessoal>
+                <tempoAdversario>02:03</tempoAdversario>
+                <resultado>vitoria</resultado>
+            </jogo>
+        </jogos>
+            
+    </jogador>
+        
+    <jogador nickname="teste5">
+                
+        <totalJogos>5</totalJogos>
+                
+        <vitorias>4</vitorias>
+                
+        <derrotas>1</derrotas>
+                
+        <empates>0</empates>
+                
+        <jogos>
+                        
+            <jogo id="Hora: 14:54:51 | Data: 30/04/2025 | Player1: Lemos | Player2: teste5">
+                                
+                <tempoPessoal>01:10</tempoPessoal>
+                                
+                <tempoAdversario>01:09</tempoAdversario>
+                                
+                <resultado>derrota</resultado>
+                            
+            </jogo>
+                    
+            <jogo id="Hora: 14:59:43 | Data: 30/04/2025 | Player1: teste5 | Player2: Lemos">
+                <tempoPessoal>01:52</tempoPessoal>
+                <tempoAdversario>01:24</tempoAdversario>
+                <resultado>vitoria</resultado>
+            </jogo>
+            <jogo id="Hora: 15:03:43 | Data: 30/04/2025 | Player1: Lemos | Player2: teste5">
+                <tempoPessoal>00:00</tempoPessoal>
+                <tempoAdversario>00:00</tempoAdversario>
+                <resultado>vitoria</resultado>
+            </jogo>
+            <jogo id="Hora: 15:04:57 | Data: 30/04/2025 | Player1: Lemos | Player2: teste5">
+                <tempoPessoal>02:03</tempoPessoal>
+                <tempoAdversario>01:10</tempoAdversario>
+                <resultado>vitoria</resultado>
+            </jogo>
+        </jogos>
+            
+    </jogador>
+    
+</estatisticas>
