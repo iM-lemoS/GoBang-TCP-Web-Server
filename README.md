@@ -49,12 +49,11 @@ To support multiple types of clients without duplicating game logic, a strong **
 
 ## 📸 Screenshots
 
-*(Add some images here: Take screenshots of the lobby, the web game board, and the terminal running, save them in a `/docs/images/` folder, and replace the links below)*
-
-| Web Interface (Lobby & Profile) | Game Board (Web) | Console Client (TCP) |
+| Web Interface (Profile & Score Board) | Game Board (Web) |
 |:---:|:---:|:---:|
-| <img src="docs/placeholder.png" width="250"/> | <img src="docs/placeholder.png" width="250"/> | <img src="docs/placeholder.png" width="250"/> |
+| <img src="docs/imagens/4.png" width="250"/> <img src="docs/imagens/5.png" width="250"/> | <img src="docs/imagens/6.png" width="250"/> |
 
+## 👥 Autores
 
-Academic project developed by:
-* **Rafael Lemos**  Institution: Instituto Superior de Engenharia de Lisboa
+Projeto académico desenvolvido por:
+* **Rafael Lemos** * **Afonso Ruas** * **Manuel Carvalho** Instituição: Instituto Superior de Engenharia de Lisboa
